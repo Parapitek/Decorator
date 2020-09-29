@@ -21,7 +21,8 @@ SOURCES += \
     darkroast.cpp \
     condimentdecorator.cpp \
     milk.cpp \
-    mocha.cpp
+    mocha.cpp \
+    cognac.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -34,4 +35,5 @@ HEADERS += \
     darkroast.h \
     condimentdecorator.h \
     milk.h \
-    mocha.h
+    mocha.h \
+    cognac.h
