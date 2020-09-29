@@ -10,8 +10,6 @@ Cognac::Cognac(Beverage *b) : CondimentDecorator (b){
 
 
 
-
-
 QString Cognac::getDescription() {
     return beverage->getDescription() + ", Cognac";
 }
