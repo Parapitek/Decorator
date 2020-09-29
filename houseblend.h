@@ -4,6 +4,7 @@
 #include "beverage.h"
 
 class HouseBlend : public Beverage {
+
 public:
     HouseBlend();
     virtual double cost();

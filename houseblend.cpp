@@ -1,9 +1,9 @@
 #include "houseblend.h"
 
-HouseBlend::HouseBlend() {
+HouseBlend::HouseBlend()
+{
     this->descrition = "House Blend Coffee";
 }
-
 double HouseBlend::cost() {
     return 135.0;
 }

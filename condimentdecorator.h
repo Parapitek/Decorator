@@ -3,7 +3,8 @@
 
 #include "beverage.h"
 
-class CondimentDecorator : public Beverage {
+class CondimentDecorator : public Beverage
+{
 protected:
     Beverage *beverage;
 public:

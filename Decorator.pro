@@ -19,11 +19,12 @@ SOURCES += \
     beverage.cpp \
     houseblend.cpp \
     darkroast.cpp \
+    espresso.cpp \
+    decaf.cpp \
     condimentdecorator.cpp \
     milk.cpp \
     mocha.cpp \
-    whiskey.cpp
-
+    marshmallow.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -34,7 +35,9 @@ HEADERS += \
     beverage.h \
     houseblend.h \
     darkroast.h \
+    espresso.h \
+    decaf.h \
     condimentdecorator.h \
     milk.h \
     mocha.h \
-    whiskey.h
+    marshmallow.h

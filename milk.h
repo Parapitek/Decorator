@@ -4,7 +4,8 @@
 #include "beverage.h"
 #include "condimentdecorator.h"
 
-class Milk : public CondimentDecorator {
+class Milk : public CondimentDecorator
+{
 public:
     Milk(Beverage*);
     virtual double cost();

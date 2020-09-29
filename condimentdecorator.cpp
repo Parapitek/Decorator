@@ -1,5 +1,6 @@
 #include "condimentdecorator.h"
 
-CondimentDecorator::CondimentDecorator(Beverage *b) {
-    this->beverage = b;
+CondimentDecorator::CondimentDecorator(Beverage *b)
+{
+ this->beverage = b;
 }

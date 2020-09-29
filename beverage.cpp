@@ -6,5 +6,4 @@ Beverage::Beverage()
 }
 
 QString Beverage::getDescription() {
-    return descrition;
-}
+    return descrition; }

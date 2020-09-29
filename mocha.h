@@ -3,7 +3,9 @@
 
 #include "condimentdecorator.h"
 
-class Mocha : public CondimentDecorator {
+
+class Mocha : public CondimentDecorator
+{
 public:
     Mocha(Beverage*);
     virtual double cost();
