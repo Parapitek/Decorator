@@ -22,7 +22,9 @@ SOURCES += \
     condimentdecorator.cpp \
     milk.cpp \
     mocha.cpp \
-    whiskey.cpp
+    whiskey.cpp \
+    coconutflakes.cpp \
+    cognac.cpp
 
 
 # Default rules for deployment.
@@ -37,4 +39,6 @@ HEADERS += \
     condimentdecorator.h \
     milk.h \
     mocha.h \
-    whiskey.h
+    whiskey.h \
+    coconutflakes.h \
+    cognac.h
